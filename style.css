@@ -1,0 +1,90 @@
+@font-face { 
+  font-family:"Montserrat";
+  src: url("https://fonts.google.com/specimen/Montserrat");
+}
+@font-face {
+  font-family:"Fraunces";
+  src: url("https://fonts.google.com/specimen/Fraunces");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-size: 14px;
+  background-color: hsl(30, 38%, 92%);  
+}
+.container{
+  min-height: 52vh;
+  display: inline-flex;
+  height: auto;
+  width: 520px;
+  justify-content: center;
+  align-content: center;
+  padding: 0rem 2rem 0rem 0rem;
+  margin-top: 10rem;
+  margin-left: 30rem;
+  margin-bottom: 10rem;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+}
+ .container .img-bb{
+  border-radius: 10px;
+}
+.container .para-bb{
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.container .para-bb h1{
+  font-family: "Fraunces",serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+.container .para-bb .title-tt{
+  letter-spacing: 5px;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat",sans-serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.container .para-bb .lolo{
+  margin-bottom: 20px;
+  line-height: 1.2rem;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat";
+  font-weight: 500;
+}
+.container .para-bb .real{
+  font-family: "Fraunces";
+  font-weight: 700;
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.container .para-bb .fake{
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+.container .para-bb button{
+  display: block;
+  margin-top: 20px;
+  border-radius: 10px;
+  height: 45px;
+  width: 225px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  background-color: hsl(158, 36%, 37%);
+}
+.container .para-bb button:active{
+  cursor: pointer;
+  background-color: hsl(212, 21%, 14%);
+}
+@media only screen and (max-width : 375px) {
+  body{
+    font-size: 14px;
+  }
+}
